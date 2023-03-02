@@ -1,7 +1,5 @@
 package Homework;
 
-import java.util.Arrays;
-
 public class LatinSquareMatrix {
 
     private int[][] matrix;

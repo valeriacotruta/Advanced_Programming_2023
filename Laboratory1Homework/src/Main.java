@@ -31,7 +31,7 @@ public class Main {
         long endTime = System.nanoTime();
         long timeDifference = endTime - startTime;
         if (n >= 30_000) {
-            System.out.print("Running time application in nanoseconds: " + timeDifference);
+            System.out.println("Running time application in nanoseconds: " + timeDifference);
         } else {
             latinSquareMatrix.displayMatrix();
         }
@@ -48,7 +48,7 @@ public class Main {
             }
         } while (size <= 0);
         AdjacencyMatrixCycleGraph adjMatrix = new AdjacencyMatrixCycleGraph(size);
-        adjMatrix.createAdjancencyMatrix();
+        adjMatrix.createAdjacencyMatrix();
         adjMatrix.displayAdjacencyMatrix();
         adjMatrix.computePowers();
     }
@@ -70,7 +70,7 @@ public class Main {
 
         if (vertexDegree == 2) {
             AdjacencyMatrixCycleGraph adjMatrix = new AdjacencyMatrixCycleGraph(numberOfVertices);
-            adjMatrix.createAdjancencyMatrix();
+            adjMatrix.createAdjacencyMatrix();
             adjMatrix.displayAdjacencyMatrix();
         } else {
             AdjacencyMatrixRegularGraph adjMatrixRegularGraph = new AdjacencyMatrixRegularGraph(numberOfVertices, vertexDegree);

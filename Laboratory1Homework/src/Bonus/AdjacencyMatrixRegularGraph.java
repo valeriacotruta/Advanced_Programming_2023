@@ -3,7 +3,7 @@ package Bonus;
 public class AdjacencyMatrixRegularGraph {
     private int numberOfVertices;
     private int vertexDegree;
-    private int adjMatrix[][];
+    private int [][] adjMatrix;
 
     public AdjacencyMatrixRegularGraph(int nrOfVertices, int vertexDegree) {
         this.numberOfVertices = nrOfVertices;
