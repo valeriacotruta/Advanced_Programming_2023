@@ -1,6 +1,6 @@
 Compulsory 10
 
-1. Am creat doua proiecte, _Serverapplication si ClientApplication_.
+1. Am creat doua proiecte, _ServerApplication si ClientApplication_.
 2. _ServerApplication_ contine clasele **GameServer, ClientThread si StopTheServer**.
 3. Clasa **GameServer** este responsabila de crearea unei instante a clasei ServerSocket ce ruleaza la portul 8100. Crearea unui fir de executie pentru fiecare client se face prin interemdiului unui _thread pool_.
 4. Clasa **ClientThread** primeste comenzile de la client si trimite un raspuns relevant.
